@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'AxAapp',
     'django.contrib.staticfiles',
 ]
 
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME': 'AxAproject',         
         'USER':'AxAadmin',
         'PASSWORD': '16061973',
-        'HOST': 'localhost',
+        'HOST': '%',
         'PORT': '', 
     }
 }
