@@ -77,8 +77,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'AxAproject',         
-        'USER':'AxAuser',
-        'PASSWORD': '12345678',
+        'USER':'AxAadmin',
+        'PASSWORD': '16061973',
         'HOST': 'localhost',
         'PORT': '', 
     }
@@ -122,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'AxAproject'
